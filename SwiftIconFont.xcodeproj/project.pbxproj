@@ -7,6 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		02D64CDA205777C6001F223A /* SwiftIconFontMac.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02D64CD1205777C5001F223A /* SwiftIconFontMac.framework */; };
+		02D64CDF205777C6001F223A /* SwiftIconFontMacTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D64CDE205777C6001F223A /* SwiftIconFontMacTests.swift */; };
+		02D64D1820577931001F223A /* FontLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D64D0E20577931001F223A /* FontLoader.swift */; };
+		02D64D1920577931001F223A /* SwiftIconFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D64D0F20577931001F223A /* SwiftIconFont.swift */; };
+		02D64D1A20577931001F223A /* Octicon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D64D1120577931001F223A /* Octicon.swift */; };
+		02D64D1B20577931001F223A /* Iconic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D64D1220577931001F223A /* Iconic.swift */; };
+		02D64D1C20577931001F223A /* MapIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D64D1320577931001F223A /* MapIcon.swift */; };
+		02D64D1D20577931001F223A /* MaterialIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D64D1420577931001F223A /* MaterialIcon.swift */; };
+		02D64D1E20577931001F223A /* IonIcons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D64D1520577931001F223A /* IonIcons.swift */; };
+		02D64D1F20577931001F223A /* ThemifyIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D64D1620577931001F223A /* ThemifyIcon.swift */; };
+		02D64D2020577931001F223A /* FontAwesome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D64D1720577931001F223A /* FontAwesome.swift */; };
+		02D64D2B2057793A001F223A /* octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 02D64D232057793A001F223A /* octicons.ttf */; };
+		02D64D2C2057793A001F223A /* themify.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 02D64D242057793A001F223A /* themify.ttf */; };
+		02D64D2D2057793A001F223A /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 02D64D252057793A001F223A /* Ionicons.ttf */; };
+		02D64D2E2057793A001F223A /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 02D64D262057793A001F223A /* FontAwesome.ttf */; };
+		02D64D2F2057793A001F223A /* open-iconic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 02D64D272057793A001F223A /* open-iconic.ttf */; };
+		02D64D302057793A001F223A /* MaterialIcons-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 02D64D282057793A001F223A /* MaterialIcons-Regular.ttf */; };
+		02D64D312057793A001F223A /* map-icons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 02D64D292057793A001F223A /* map-icons.ttf */; };
+		02D64D3420577F9A001F223A /* SwiftIconFontMac.h in Headers */ = {isa = PBXBuildFile; fileRef = 02D64D3320577F9A001F223A /* SwiftIconFontMac.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DA223AA91F160FAC005915D0 /* SwiftIconFontView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA223AA81F160FAC005915D0 /* SwiftIconFontView.swift */; };
 		DA639C421F62B959004810A6 /* SwiftIconStepper.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA639C411F62B959004810A6 /* SwiftIconStepper.swift */; };
 		DA8D9D151D345A3800F5E693 /* SwiftIconFont.h in Headers */ = {isa = PBXBuildFile; fileRef = DA8D9D141D345A3800F5E693 /* SwiftIconFont.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -47,6 +66,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		02D64CDB205777C6001F223A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DA8D9D081D345A3800F5E693 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 02D64CD0205777C5001F223A;
+			remoteInfo = SwiftIconFontMac;
+		};
 		DA8D9D1D1D345A3800F5E693 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = DA8D9D081D345A3800F5E693 /* Project object */;
@@ -57,6 +83,28 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		02D64CD1205777C5001F223A /* SwiftIconFontMac.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftIconFontMac.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		02D64CD4205777C6001F223A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02D64CD9205777C6001F223A /* SwiftIconFontMacTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftIconFontMacTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		02D64CDE205777C6001F223A /* SwiftIconFontMacTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftIconFontMacTests.swift; sourceTree = "<group>"; };
+		02D64CE0205777C6001F223A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02D64D0E20577931001F223A /* FontLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontLoader.swift; sourceTree = "<group>"; };
+		02D64D0F20577931001F223A /* SwiftIconFont.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftIconFont.swift; sourceTree = "<group>"; };
+		02D64D1120577931001F223A /* Octicon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Octicon.swift; sourceTree = "<group>"; };
+		02D64D1220577931001F223A /* Iconic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Iconic.swift; sourceTree = "<group>"; };
+		02D64D1320577931001F223A /* MapIcon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapIcon.swift; sourceTree = "<group>"; };
+		02D64D1420577931001F223A /* MaterialIcon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialIcon.swift; sourceTree = "<group>"; };
+		02D64D1520577931001F223A /* IonIcons.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IonIcons.swift; sourceTree = "<group>"; };
+		02D64D1620577931001F223A /* ThemifyIcon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThemifyIcon.swift; sourceTree = "<group>"; };
+		02D64D1720577931001F223A /* FontAwesome.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontAwesome.swift; sourceTree = "<group>"; };
+		02D64D232057793A001F223A /* octicons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = octicons.ttf; sourceTree = "<group>"; };
+		02D64D242057793A001F223A /* themify.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = themify.ttf; sourceTree = "<group>"; };
+		02D64D252057793A001F223A /* Ionicons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Ionicons.ttf; sourceTree = "<group>"; };
+		02D64D262057793A001F223A /* FontAwesome.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome.ttf; sourceTree = "<group>"; };
+		02D64D272057793A001F223A /* open-iconic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "open-iconic.ttf"; sourceTree = "<group>"; };
+		02D64D282057793A001F223A /* MaterialIcons-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MaterialIcons-Regular.ttf"; sourceTree = "<group>"; };
+		02D64D292057793A001F223A /* map-icons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "map-icons.ttf"; sourceTree = "<group>"; };
+		02D64D3320577F9A001F223A /* SwiftIconFontMac.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwiftIconFontMac.h; sourceTree = "<group>"; };
 		DA223AA81F160FAC005915D0 /* SwiftIconFontView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftIconFontView.swift; sourceTree = "<group>"; };
 		DA639C411F62B959004810A6 /* SwiftIconStepper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftIconStepper.swift; sourceTree = "<group>"; };
 		DA8D9D111D345A3800F5E693 /* SwiftIconFont.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftIconFont.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -100,6 +148,21 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		02D64CCD205777C5001F223A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02D64CD6205777C6001F223A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02D64CDA205777C6001F223A /* SwiftIconFontMac.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		DA8D9D0D1D345A3800F5E693 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -118,11 +181,71 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		02D64CD2205777C6001F223A /* SwiftIconFontMac */ = {
+			isa = PBXGroup;
+			children = (
+				02D64D0D20577931001F223A /* Classes */,
+				02D64D222057793A001F223A /* Resources */,
+				02D64D3320577F9A001F223A /* SwiftIconFontMac.h */,
+				02D64CD4205777C6001F223A /* Info.plist */,
+			);
+			path = SwiftIconFontMac;
+			sourceTree = "<group>";
+		};
+		02D64CDD205777C6001F223A /* SwiftIconFontMacTests */ = {
+			isa = PBXGroup;
+			children = (
+				02D64CDE205777C6001F223A /* SwiftIconFontMacTests.swift */,
+				02D64CE0205777C6001F223A /* Info.plist */,
+			);
+			path = SwiftIconFontMacTests;
+			sourceTree = "<group>";
+		};
+		02D64D0D20577931001F223A /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				02D64D0E20577931001F223A /* FontLoader.swift */,
+				02D64D0F20577931001F223A /* SwiftIconFont.swift */,
+				02D64D1020577931001F223A /* Fonts */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		02D64D1020577931001F223A /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				02D64D1120577931001F223A /* Octicon.swift */,
+				02D64D1220577931001F223A /* Iconic.swift */,
+				02D64D1320577931001F223A /* MapIcon.swift */,
+				02D64D1420577931001F223A /* MaterialIcon.swift */,
+				02D64D1520577931001F223A /* IonIcons.swift */,
+				02D64D1620577931001F223A /* ThemifyIcon.swift */,
+				02D64D1720577931001F223A /* FontAwesome.swift */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		02D64D222057793A001F223A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				02D64D232057793A001F223A /* octicons.ttf */,
+				02D64D242057793A001F223A /* themify.ttf */,
+				02D64D252057793A001F223A /* Ionicons.ttf */,
+				02D64D262057793A001F223A /* FontAwesome.ttf */,
+				02D64D272057793A001F223A /* open-iconic.ttf */,
+				02D64D282057793A001F223A /* MaterialIcons-Regular.ttf */,
+				02D64D292057793A001F223A /* map-icons.ttf */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		DA8D9D071D345A3800F5E693 = {
 			isa = PBXGroup;
 			children = (
 				DA8D9D131D345A3800F5E693 /* SwiftIconFont */,
 				DA8D9D1F1D345A3800F5E693 /* SwiftIconFontTests */,
+				02D64CD2205777C6001F223A /* SwiftIconFontMac */,
+				02D64CDD205777C6001F223A /* SwiftIconFontMacTests */,
 				DA8D9D121D345A3800F5E693 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -132,6 +255,8 @@
 			children = (
 				DA8D9D111D345A3800F5E693 /* SwiftIconFont.framework */,
 				DA8D9D1B1D345A3800F5E693 /* SwiftIconFontTests.xctest */,
+				02D64CD1205777C5001F223A /* SwiftIconFontMac.framework */,
+				02D64CD9205777C6001F223A /* SwiftIconFontMacTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -231,6 +356,14 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		02D64CCE205777C5001F223A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02D64D3420577F9A001F223A /* SwiftIconFontMac.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		DA8D9D0E1D345A3800F5E693 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -242,6 +375,42 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		02D64CD0205777C5001F223A /* SwiftIconFontMac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02D64CE6205777C6001F223A /* Build configuration list for PBXNativeTarget "SwiftIconFontMac" */;
+			buildPhases = (
+				02D64CCC205777C5001F223A /* Sources */,
+				02D64CCD205777C5001F223A /* Frameworks */,
+				02D64CCE205777C5001F223A /* Headers */,
+				02D64CCF205777C5001F223A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftIconFontMac;
+			productName = SwiftIconFontMac;
+			productReference = 02D64CD1205777C5001F223A /* SwiftIconFontMac.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		02D64CD8205777C6001F223A /* SwiftIconFontMacTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02D64CE7205777C6001F223A /* Build configuration list for PBXNativeTarget "SwiftIconFontMacTests" */;
+			buildPhases = (
+				02D64CD5205777C6001F223A /* Sources */,
+				02D64CD6205777C6001F223A /* Frameworks */,
+				02D64CD7205777C6001F223A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				02D64CDC205777C6001F223A /* PBXTargetDependency */,
+			);
+			name = SwiftIconFontMacTests;
+			productName = SwiftIconFontMacTests;
+			productReference = 02D64CD9205777C6001F223A /* SwiftIconFontMacTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		DA8D9D101D345A3800F5E693 /* SwiftIconFont */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = DA8D9D251D345A3800F5E693 /* Build configuration list for PBXNativeTarget "SwiftIconFont" */;
@@ -284,10 +453,19 @@
 		DA8D9D081D345A3800F5E693 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0730;
+				LastSwiftUpdateCheck = 0920;
 				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = "Sedat Gökbek ÇİFTÇİ";
 				TargetAttributes = {
+					02D64CD0205777C5001F223A = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					02D64CD8205777C6001F223A = {
+						CreatedOnToolsVersion = 9.2;
+						DevelopmentTeam = H8574G79KS;
+						ProvisioningStyle = Automatic;
+					};
 					DA8D9D101D345A3800F5E693 = {
 						CreatedOnToolsVersion = 7.3.1;
 						LastSwiftMigration = 0800;
@@ -312,11 +490,34 @@
 			targets = (
 				DA8D9D101D345A3800F5E693 /* SwiftIconFont */,
 				DA8D9D1A1D345A3800F5E693 /* SwiftIconFontTests */,
+				02D64CD0205777C5001F223A /* SwiftIconFontMac */,
+				02D64CD8205777C6001F223A /* SwiftIconFontMacTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		02D64CCF205777C5001F223A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02D64D2B2057793A001F223A /* octicons.ttf in Resources */,
+				02D64D312057793A001F223A /* map-icons.ttf in Resources */,
+				02D64D302057793A001F223A /* MaterialIcons-Regular.ttf in Resources */,
+				02D64D2F2057793A001F223A /* open-iconic.ttf in Resources */,
+				02D64D2C2057793A001F223A /* themify.ttf in Resources */,
+				02D64D2D2057793A001F223A /* Ionicons.ttf in Resources */,
+				02D64D2E2057793A001F223A /* FontAwesome.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02D64CD7205777C6001F223A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		DA8D9D0F1D345A3800F5E693 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -341,6 +542,30 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		02D64CCC205777C5001F223A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02D64D1B20577931001F223A /* Iconic.swift in Sources */,
+				02D64D1820577931001F223A /* FontLoader.swift in Sources */,
+				02D64D1920577931001F223A /* SwiftIconFont.swift in Sources */,
+				02D64D1F20577931001F223A /* ThemifyIcon.swift in Sources */,
+				02D64D1D20577931001F223A /* MaterialIcon.swift in Sources */,
+				02D64D1C20577931001F223A /* MapIcon.swift in Sources */,
+				02D64D1A20577931001F223A /* Octicon.swift in Sources */,
+				02D64D2020577931001F223A /* FontAwesome.swift in Sources */,
+				02D64D1E20577931001F223A /* IonIcons.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02D64CD5205777C6001F223A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02D64CDF205777C6001F223A /* SwiftIconFontMacTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		DA8D9D0C1D345A3800F5E693 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -386,6 +611,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		02D64CDC205777C6001F223A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 02D64CD0205777C5001F223A /* SwiftIconFontMac */;
+			targetProxy = 02D64CDB205777C6001F223A /* PBXContainerItemProxy */;
+		};
 		DA8D9D1E1D345A3800F5E693 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = DA8D9D101D345A3800F5E693 /* SwiftIconFont */;
@@ -394,6 +624,114 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		02D64CE2205777C6001F223A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = SwiftIconFontMac/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_BUNDLE_IDENTIFIER = com.stylejar.SwiftIconFontMac;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_INCLUDE_PATHS = "";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		02D64CE3205777C6001F223A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = SwiftIconFontMac/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_BUNDLE_IDENTIFIER = com.stylejar.SwiftIconFontMac;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_INCLUDE_PATHS = "";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		02D64CE4205777C6001F223A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = H8574G79KS;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = SwiftIconFontMacTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = com.stylejar.SwiftIconFontMacTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		02D64CE5205777C6001F223A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = H8574G79KS;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = SwiftIconFontMacTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = com.stylejar.SwiftIconFontMacTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
 		DA8D9D231D345A3800F5E693 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -569,6 +907,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		02D64CE6205777C6001F223A /* Build configuration list for PBXNativeTarget "SwiftIconFontMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02D64CE2205777C6001F223A /* Debug */,
+				02D64CE3205777C6001F223A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		02D64CE7205777C6001F223A /* Build configuration list for PBXNativeTarget "SwiftIconFontMacTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02D64CE4205777C6001F223A /* Debug */,
+				02D64CE5205777C6001F223A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		DA8D9D0B1D345A3800F5E693 /* Build configuration list for PBXProject "SwiftIconFont" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
