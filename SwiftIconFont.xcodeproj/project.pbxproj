@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		02483268209C31D500361B27 /* FontLoader.swift in Headers */ = {isa = PBXBuildFile; fileRef = 02D64D0E20577931001F223A /* FontLoader.swift */; settings = {ATTRIBUTES = (Public, ); }; };
+		02483269209C31D500361B27 /* SwiftIconFont.swift in Headers */ = {isa = PBXBuildFile; fileRef = 02D64D0F20577931001F223A /* SwiftIconFont.swift */; settings = {ATTRIBUTES = (Public, ); }; };
+		02483275209C3AF900361B27 /* SwiftIconFont+NSImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02483273209C3AF900361B27 /* SwiftIconFont+NSImage.swift */; };
+		02483276209C3AF900361B27 /* SwiftIconFont+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02483274209C3AF900361B27 /* SwiftIconFont+String.swift */; };
 		02D64CDA205777C6001F223A /* SwiftIconFontMac.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02D64CD1205777C5001F223A /* SwiftIconFontMac.framework */; };
 		02D64CDF205777C6001F223A /* SwiftIconFontMacTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D64CDE205777C6001F223A /* SwiftIconFontMacTests.swift */; };
 		02D64D1820577931001F223A /* FontLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D64D0E20577931001F223A /* FontLoader.swift */; };
@@ -83,6 +87,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		02483273209C3AF900361B27 /* SwiftIconFont+NSImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SwiftIconFont+NSImage.swift"; sourceTree = "<group>"; };
+		02483274209C3AF900361B27 /* SwiftIconFont+String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SwiftIconFont+String.swift"; sourceTree = "<group>"; };
 		02D64CD1205777C5001F223A /* SwiftIconFontMac.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftIconFontMac.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		02D64CD4205777C6001F223A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		02D64CD9205777C6001F223A /* SwiftIconFontMacTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftIconFontMacTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -181,6 +187,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		02483272209C3AAD00361B27 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				02483273209C3AF900361B27 /* SwiftIconFont+NSImage.swift */,
+				02483274209C3AF900361B27 /* SwiftIconFont+String.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		02D64CD2205777C6001F223A /* SwiftIconFontMac */ = {
 			isa = PBXGroup;
 			children = (
@@ -204,6 +219,7 @@
 		02D64D0D20577931001F223A /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				02483272209C3AAD00361B27 /* Extensions */,
 				02D64D0E20577931001F223A /* FontLoader.swift */,
 				02D64D0F20577931001F223A /* SwiftIconFont.swift */,
 				02D64D1020577931001F223A /* Fonts */,
@@ -361,6 +377,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				02D64D3420577F9A001F223A /* SwiftIconFontMac.h in Headers */,
+				02483268209C31D500361B27 /* FontLoader.swift in Headers */,
+				02483269209C31D500361B27 /* SwiftIconFont.swift in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -454,7 +472,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0920;
-				LastUpgradeCheck = 0920;
+				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = "Sedat Gökbek ÇİFTÇİ";
 				TargetAttributes = {
 					02D64CD0205777C5001F223A = {
@@ -549,7 +567,9 @@
 				02D64D1B20577931001F223A /* Iconic.swift in Sources */,
 				02D64D1820577931001F223A /* FontLoader.swift in Sources */,
 				02D64D1920577931001F223A /* SwiftIconFont.swift in Sources */,
+				02483276209C3AF900361B27 /* SwiftIconFont+String.swift in Sources */,
 				02D64D1F20577931001F223A /* ThemifyIcon.swift in Sources */,
+				02483275209C3AF900361B27 /* SwiftIconFont+NSImage.swift in Sources */,
 				02D64D1D20577931001F223A /* MaterialIcon.swift in Sources */,
 				02D64D1C20577931001F223A /* MapIcon.swift in Sources */,
 				02D64D1A20577931001F223A /* Octicon.swift in Sources */,
@@ -745,12 +765,14 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -803,12 +825,14 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
